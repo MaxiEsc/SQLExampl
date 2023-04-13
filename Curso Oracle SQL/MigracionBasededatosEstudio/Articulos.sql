@@ -1,0 +1,27 @@
+--------------------------------------------------------
+-- Archivo creado  - sábado-abril-08-2023   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table ARTICULOS
+--------------------------------------------------------
+
+  CREATE TABLE "CURSO_ORACLE"."ARTICULOS" 
+   (	"CODIGO" NUMBER(5,0), 
+	"NOMBRE" VARCHAR2(20 BYTE), 
+	"DESCRIPCION" VARCHAR2(30 BYTE), 
+	"PRECIO" NUMBER(7,2)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into CURSO_ORACLE.ARTICULOS
+SET DEFINE OFF;
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('1','impresora','Epson Stylus C45','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('2','Laser','Epson Stylus C85','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('3','monitor','Samsung 14','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('4','teclado','ingles Biswal','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('5','teclado','español Biswal','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('6','mouse','Genius','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('7','mouse','teclado blanco','1000');
+Insert into CURSO_ORACLE.ARTICULOS (CODIGO,NOMBRE,DESCRIPCION,PRECIO) values ('8','Notebook','Dell','1000');

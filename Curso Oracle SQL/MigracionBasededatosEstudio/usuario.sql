@@ -1,0 +1,20 @@
+--------------------------------------------------------
+-- Archivo creado  - sábado-abril-08-2023   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table USUARIO
+--------------------------------------------------------
+
+  CREATE TABLE "CURSO_ORACLE"."USUARIO" 
+   (	"IDUSUARIO" NUMBER(*,0), 
+	"NOMBRE" CHAR(50 BYTE), 
+	"FECHA_NACIMIENTO" DATE, 
+	"TELEFONO" CHAR(10 BYTE), 
+	"SALARIO" NUMBER(6,2)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into CURSO_ORACLE.USUARIO
+SET DEFINE OFF;
